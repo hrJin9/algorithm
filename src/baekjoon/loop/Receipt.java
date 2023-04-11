@@ -6,14 +6,13 @@ import java.util.Scanner;
 public class Receipt {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int X = sc.nextInt();
-        int N = sc.nextInt();
+        int X = sc.nextInt(), N = sc.nextInt();
         int sum = 0;
 
         for(int i=0; i<N; i++){
             sum += sc.nextInt() * sc.nextInt();
         }
-        String ans = (X == sum)?"YES":"NO";
+        String ans = (X == sum)?"Yes":"No";
         System.out.println(ans);
     }
 }

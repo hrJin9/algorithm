@@ -1,4 +1,4 @@
-package baekjoon.loop;
+package baekjoon.array;
 
 import java.util.*;
 import java.util.stream.Collectors;
