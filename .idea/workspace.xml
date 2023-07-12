@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="Day 1 : loop - receipt">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/ChessPainting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/Fibo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/NumbBaseball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/덩치_7568.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/부분수열의합_1182.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/사탕게임_3085.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[3주차] - 백준 덩치, 부분수열의 합">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/array/AddBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/AddBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/array/Count_10807.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/Count_10807.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/loop/PE_25314.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/PE_25314.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/loop/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondWeeks/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/Bracket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondWeeks/FindingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/FindingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondWeeks/FunctionDevelop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/FunctionDevelop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondWeeks/NthBiggerNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/NthBiggerNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondWeeks/SeeSaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/SeeSaw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680694101532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[3주차] - 백준 덩치, 부분수열의 합">
+      <created>1689161050062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689161050062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +190,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1" />
     <MESSAGE value="Day 1 : loop - receipt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1 : loop - receipt" />
+    <MESSAGE value="[3주차] - 백준 덩치, 부분수열의 합" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3주차] - 백준 덩치, 부분수열의 합" />
   </component>
 </project>
