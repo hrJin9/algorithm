@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="Day 1 : loop - receipt">
-      <change afterPath="$PROJECT_DIR$/src/firstWeek/Bracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firstWeek/FindingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firstWeek/FunctionDevelop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firstWeek/NthBiggerNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firstWeek/SeeSaw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/ChessPainting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/NumbBaseball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/덩치_7568.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/부분수열의합_1182.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/사탕게임_3085.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/array/AddBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/AddBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/array/Count_10807.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/Count_10807.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/loop/PE_25314.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/PE_25314.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/loop/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondWeeks/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/Bracket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondWeeks/FindingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/FindingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondWeeks/FunctionDevelop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/FunctionDevelop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondWeeks/NthBiggerNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/NthBiggerNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondWeeks/SeeSaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/second/SeeSaw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +40,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="83a26448-e910-4a85-93b1-2a1e3d567ce4" />
+        <option name="url" value="https://github.com/hrJin9/algorithm.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,18 +64,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/jinhyelin/Library/Mobile Documents/com~apple~CloudDocs/Study/algorithm-study/algorithm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jinhyelin/Library/Mobile Documents/com~apple~CloudDocs/Study/algorithm-study/algorithm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="Application.덩치_7568">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -64,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count_10807" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.array.Count_10807" />
+    <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.second.Bracket" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.array.*" />
+          <option name="PATTERN" value="baekjoon.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondWeeks.FindingNumber" />
+    <configuration name="ChessPainting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.three.ChessPainting" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="secondWeeks.*" />
+          <option name="PATTERN" value="baekjoon.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PE_25314" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.loop.PE_25314" />
+    <configuration name="부분수열의합_1182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.three.부분수열의합_1182" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.array.*" />
+          <option name="PATTERN" value="baekjoon.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Receipt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.loop.Receipt" />
+    <configuration name="덩치_7568" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.three.덩치_7568" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.array.*" />
+          <option name="PATTERN" value="baekjoon.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.덩치_7568" />
+        <item itemvalue="Application.ChessPainting" />
+        <item itemvalue="Application.부분수열의합_1182" />
+        <item itemvalue="Application.Bracket" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FindingNumber" />
-        <item itemvalue="Application.Count_10807" />
-        <item itemvalue="Application.PE_25314" />
-        <item itemvalue="Application.Receipt" />
       </list>
     </recent_temporary>
   </component>

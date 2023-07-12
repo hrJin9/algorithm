@@ -1,4 +1,4 @@
-package secondWeeks;
+package baekjoon.second;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package baekjoon.array;
+package baekjoon.second;
 
 import java.util.ArrayList;
 import java.util.List;

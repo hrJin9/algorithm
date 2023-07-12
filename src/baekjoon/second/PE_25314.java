@@ -1,6 +1,5 @@
-package baekjoon.loop;
+package baekjoon.second;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class PE_25314 {

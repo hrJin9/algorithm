@@ -1,7 +1,4 @@
-package baekjoon.array;
-
-import java.util.*;
-import java.util.stream.Collectors;
+package baekjoon.second;
 
 public class AddBall {
 //    public static void main(String[] args) {
