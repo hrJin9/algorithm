@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[3주차] - 백준 사탕게임, 숫자야구, 한수, 체스판다시칠하기">
+    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[수정] baekjoon -&gt; algorithm 패키지명 변경">
       <change afterPath="$PROJECT_DIR$/src/algorithm/fourth/DFS와BFS_1260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/three/피보나치.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/AddBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/AddBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/Bracket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/Count_10807.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/Count_10807.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/FindingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/FindingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/FunctionDevelop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/FunctionDevelop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/NthBiggerNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/NthBiggerNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/PE_25314.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/PE_25314.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/SeeSaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/SeeSaw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/Fibo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/덩치_7568.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/덩치_7568.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/부분수열의합_1182.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/부분수열의합_1182.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/사탕게임_3085.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/사탕게임_3085.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/숫자야구_2503.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/숫자야구_2503.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/체스판다시칠하기_1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/체스판다시칠하기_1018.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/한수_1065.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/한수_1065.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689490285515</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[수정] baekjoon -&gt; algorithm 패키지명 변경">
+      <created>1689679781476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689679781476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +225,7 @@
     <MESSAGE value="Day 1 : loop - receipt" />
     <MESSAGE value="[3주차] - 백준 덩치, 부분수열의 합" />
     <MESSAGE value="[3주차] - 백준 사탕게임, 숫자야구, 한수, 체스판다시칠하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3주차] - 백준 사탕게임, 숫자야구, 한수, 체스판다시칠하기" />
+    <MESSAGE value="[수정] baekjoon -&gt; algorithm 패키지명 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="[수정] baekjoon -&gt; algorithm 패키지명 변경" />
   </component>
 </project>
