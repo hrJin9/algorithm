@@ -1,4 +1,4 @@
-package baekjoon.second;
+package algorithm.second;
 
 import java.util.Scanner;
 

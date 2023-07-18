@@ -1,4 +1,4 @@
-package baekjoon.second;
+package algorithm.second;
 
 public class AddBall {
 //    public static void main(String[] args) {

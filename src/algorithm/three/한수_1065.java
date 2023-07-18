@@ -1,4 +1,4 @@
-package baekjoon.three;
+package algorithm.three;
 import java.util.*;
 
 public class 한수_1065 {

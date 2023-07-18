@@ -4,12 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[3주차] - 백준 덩치, 부분수열의 합">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/three/한수_1065.java" afterDir="false" />
+    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[3주차] - 백준 사탕게임, 숫자야구, 한수, 체스판다시칠하기">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/fourth/DFS와BFS_1260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/three/피보나치.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/ChessPainting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/three/체스판다시칠하기_1018.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/NumbBaseball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/three/숫자야구_2503.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/사탕게임_3085.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/three/사탕게임_3085.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/AddBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/AddBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/Bracket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/Count_10807.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/Count_10807.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/FindingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/FindingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/FunctionDevelop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/FunctionDevelop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/NthBiggerNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/NthBiggerNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/PE_25314.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/PE_25314.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/second/SeeSaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/second/SeeSaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/Fibo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/덩치_7568.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/덩치_7568.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/부분수열의합_1182.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/부분수열의합_1182.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/사탕게임_3085.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/사탕게임_3085.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/숫자야구_2503.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/숫자야구_2503.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/체스판다시칠하기_1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/체스판다시칠하기_1018.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/three/한수_1065.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/three/한수_1065.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +37,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +82,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.체스판다시칠하기_1018">
+  <component name="RunManager" selected="Application.DFS와BFS_1260">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -74,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.second.Bracket" />
+    <configuration name="피보나치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.three.피보나치" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.three.*" />
+          <option name="PATTERN" value="algorithm.three.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFS와BFS_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.DFS와BFS_1260" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.fourth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,24 +121,11 @@
       </method>
     </configuration>
     <configuration name="체스판다시칠하기_1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.three.체스판다시칠하기_1018" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.three.체스판다시칠하기_1018" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="부분수열의합_1182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.three.부분수열의합_1182" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.three.*" />
+          <option name="PATTERN" value="algorithm.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +134,11 @@
       </method>
     </configuration>
     <configuration name="사탕게임_3085" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.three.사탕게임_3085" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.three.사탕게임_3085" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.three.*" />
+          <option name="PATTERN" value="algorithm.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +147,11 @@
       </method>
     </configuration>
     <configuration name="덩치_7568" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.three.덩치_7568" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.three.덩치_7568" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.three.*" />
+          <option name="PATTERN" value="algorithm.three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DFS와BFS_1260" />
+        <item itemvalue="Application.피보나치" />
         <item itemvalue="Application.체스판다시칠하기_1018" />
         <item itemvalue="Application.사탕게임_3085" />
         <item itemvalue="Application.덩치_7568" />
-        <item itemvalue="Application.부분수열의합_1182" />
-        <item itemvalue="Application.Bracket" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689161273432</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[3주차] - 백준 사탕게임, 숫자야구, 한수, 체스판다시칠하기">
+      <created>1689490285515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689490285515</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +235,7 @@
     <MESSAGE value="Day 1" />
     <MESSAGE value="Day 1 : loop - receipt" />
     <MESSAGE value="[3주차] - 백준 덩치, 부분수열의 합" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3주차] - 백준 덩치, 부분수열의 합" />
+    <MESSAGE value="[3주차] - 백준 사탕게임, 숫자야구, 한수, 체스판다시칠하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3주차] - 백준 사탕게임, 숫자야구, 한수, 체스판다시칠하기" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package baekjoon.three;
+package algorithm.three;
 import java.util.*;
 
 public class 체스판다시칠하기_1018 {
