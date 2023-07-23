@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[수정] workspace">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/fourth/타겟넘버.java" afterDir="false" />
+    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[4주차] - 백준 미로탐색. 보충 필요">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/fourth/유기농배추_1012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/fourth/토마토_7576.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/fourth/타겟넘버.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/fourth/타겟넘버.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DFS와BFS_1260">
+  <component name="RunManager" selected="Application.토마토_7576">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -73,19 +75,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="피보나치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.three.피보나치" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="체스판다시칠하기_1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.three.체스판다시칠하기_1018" />
+    <configuration name="미로탐색_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.미로탐색_2178" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.three.*" />
+          <option name="PATTERN" value="algorithm.fourth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="사탕게임_3085" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.three.사탕게임_3085" />
+    <configuration name="바이러스_2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.바이러스_2606" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.three.*" />
+          <option name="PATTERN" value="algorithm.fourth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="덩치_7568" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.three.덩치_7568" />
+    <configuration name="섬의개수_4963" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.섬의개수_4963" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.three.*" />
+          <option name="PATTERN" value="algorithm.fourth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="토마토_7576" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.토마토_7576" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.fourth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.토마토_7576" />
+        <item itemvalue="Application.미로탐색_2178" />
+        <item itemvalue="Application.섬의개수_4963" />
+        <item itemvalue="Application.바이러스_2606" />
         <item itemvalue="Application.DFS와BFS_1260" />
-        <item itemvalue="Application.피보나치" />
-        <item itemvalue="Application.체스판다시칠하기_1018" />
-        <item itemvalue="Application.사탕게임_3085" />
-        <item itemvalue="Application.덩치_7568" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +220,35 @@
       <option name="project" value="LOCAL" />
       <updated>1689679829817</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[4주차] - 프로그래머스 타겟넘버 (미완성)">
+      <created>1689681903783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689681903784</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[4주차] - 백준 바이러스">
+      <created>1690091530259</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690091530259</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[4주차] - 백준 섬의 개수">
+      <created>1690094497788</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690094497788</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[4주차] - 백준 미로탐색. 보충 필요">
+      <created>1690116988830</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690116988830</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +273,10 @@
     <MESSAGE value="[수정] baekjoon -&gt; algorithm 패키지명 변경" />
     <MESSAGE value="[4주차] - 백준1260 DFS와BFS" />
     <MESSAGE value="[수정] workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="[수정] workspace" />
+    <MESSAGE value="[4주차] - 프로그래머스 타겟넘버 (미완성)" />
+    <MESSAGE value="[4주차] - 백준 바이러스" />
+    <MESSAGE value="[4주차] - 백준 섬의 개수" />
+    <MESSAGE value="[4주차] - 백준 미로탐색. 보충 필요" />
+    <option name="LAST_COMMIT_MESSAGE" value="[4주차] - 백준 미로탐색. 보충 필요" />
   </component>
 </project>

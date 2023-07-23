@@ -22,12 +22,13 @@ public class 타겟넘버 {
             return;
         }
 
-        // 더하는 경우
-        DFS(num, sum + 다음거, target, answer);
-
-        // 빼는 경우
-        DFS(num, sum - 다음거, target, answer);
+//         더하는 경우
+//        DFS(num, sum + 다음거, target, answer);
+//
+//        // 빼는 경우
+//        DFS(num, sum - 다음거, target, answer);
     }
 
 
 }
+
