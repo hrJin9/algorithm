@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[4주차] - 백준 미로탐색. 보충 필요">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/fourth/유기농배추_1012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/fourth/토마토_7576.java" afterDir="false" />
+    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[4주차] - 백준 BFS 푸는중">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/five/N_Queen_9663.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/five/N과M_15649.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/five/로또_6603.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/five/부분수열의합_1182.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/five/순열_9742.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/five/연구소_14502.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/five/트리순회.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fourth/타겟넘버.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/fourth/타겟넘버.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.토마토_7576">
+  <component name="RunManager" selected="Application.부분수열의합_1182">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DFS와BFS_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.DFS와BFS_1260" />
+    <configuration name="트리순회" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.five.트리순회" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.fourth.*" />
+          <option name="PATTERN" value="algorithm.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="미로탐색_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.미로탐색_2178" />
+    <configuration name="N과M_15649" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.five.N과M_15649" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.fourth.*" />
+          <option name="PATTERN" value="algorithm.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="바이러스_2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.바이러스_2606" />
+    <configuration name="부분수열의합_1182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.five.부분수열의합_1182" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.fourth.*" />
+          <option name="PATTERN" value="algorithm.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="섬의개수_4963" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.fourth.섬의개수_4963" />
+    <configuration name="로또_6603" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.five.로또_6603" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.fourth.*" />
+          <option name="PATTERN" value="algorithm.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.부분수열의합_1182" />
+        <item itemvalue="Application.로또_6603" />
+        <item itemvalue="Application.N과M_15649" />
+        <item itemvalue="Application.트리순회" />
         <item itemvalue="Application.토마토_7576" />
-        <item itemvalue="Application.미로탐색_2178" />
-        <item itemvalue="Application.섬의개수_4963" />
-        <item itemvalue="Application.바이러스_2606" />
-        <item itemvalue="Application.DFS와BFS_1260" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690116988830</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[4주차] - 백준 토마토">
+      <created>1690117812360</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690117812360</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[4주차] - 백준 BFS 푸는중">
+      <created>1690117944616</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690117944616</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +295,8 @@
     <MESSAGE value="[4주차] - 백준 바이러스" />
     <MESSAGE value="[4주차] - 백준 섬의 개수" />
     <MESSAGE value="[4주차] - 백준 미로탐색. 보충 필요" />
-    <option name="LAST_COMMIT_MESSAGE" value="[4주차] - 백준 미로탐색. 보충 필요" />
+    <MESSAGE value="[4주차] - 백준 토마토" />
+    <MESSAGE value="[4주차] - 백준 BFS 푸는중" />
+    <option name="LAST_COMMIT_MESSAGE" value="[4주차] - 백준 BFS 푸는중" />
   </component>
 </project>
