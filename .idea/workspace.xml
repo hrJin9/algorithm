@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[4주차] - 백준 BFS 푸는중">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/five/N_Queen_9663.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/five/N과M_15649.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/five/로또_6603.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/five/부분수열의합_1182.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/five/순열_9742.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/five/연구소_14502.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/five/트리순회.java" afterDir="false" />
+    <list default="true" id="1ab4b937-1448-4e98-90aa-eda0718ec608" name="Changes" comment="[5주차] - 백준 백트래킹">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/six/거품정렬.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690117944616</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[5주차] - 백준 백트래킹">
+      <created>1690720195700</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690720195700</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +298,7 @@
     <MESSAGE value="[4주차] - 백준 미로탐색. 보충 필요" />
     <MESSAGE value="[4주차] - 백준 토마토" />
     <MESSAGE value="[4주차] - 백준 BFS 푸는중" />
-    <option name="LAST_COMMIT_MESSAGE" value="[4주차] - 백준 BFS 푸는중" />
+    <MESSAGE value="[5주차] - 백준 백트래킹" />
+    <option name="LAST_COMMIT_MESSAGE" value="[5주차] - 백준 백트래킹" />
   </component>
 </project>
