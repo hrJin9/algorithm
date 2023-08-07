@@ -1,5 +1,6 @@
 package algorithm.six;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class 삽입정렬1_24051 {
 
@@ -19,23 +20,32 @@ public class 삽입정렬1_24051 {
     private static void insertSort(int[] arr, int K){
 
         int count = 0;
-        boolean isSame = false;
-        for(int idx=2; idx<arr.length; idx++) {
+        for(int idx=1; idx<arr.length; idx++) {
             int tmp = arr[idx];
             int prevIdx = idx - 1;
 
             while ((prevIdx >= 0) && (arr[prevIdx] > tmp)) { // 전의 숫자가 더 크면 자리를 바꿔준다
-                count++;
-                if(count == K) System.out.print(arr[prevIdx]);
                 arr[prevIdx + 1] = arr[prevIdx];
+                count++;
+                if(count == K){
+                    System.out.print(arr[prevIdx + 1]);
+                }
                 prevIdx--;
             }
-            count++;
-            if(count == K) System.out.print(tmp);
-            arr[prevIdx + 1] = tmp;
+
+            if(prevIdx + 1 != idx){
+                arr[prevIdx + 1] = tmp;
+                count++;
+                if(count == K){
+                    System.out.print(arr[prevIdx + 1]);
+                }
+            }
         }
 
-        if(count < K) System.out.print(-1);
+        if(count < K){
+            System.out.print(-1);
+        }
+
     }
 
 }
