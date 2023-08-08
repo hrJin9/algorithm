@@ -3,57 +3,48 @@ import java.util.*;
 
 public class 나이순정렬_10814 {
 
-    private static class Member{
+    private static class Member implements Comparable<Member>{
         int age;
         String name;
-        int idx;
 
-        public Member(int age, String name, int idx){
+        public Member(int age, String name){
             this.age = age;
             this.name = name;
-            this.idx = idx;
+        }
+
+        @Override
+        public int compareTo(Member o){
+            return this.age - o.age;
         }
 
     }
 
-
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        StringBuilder sb = new StringBuilder();
         int N = sc.nextInt(); //회원수
 
-        List<Member> memberList = new ArrayList<>();
+        Member[] memberList = new Member[N];
 
         for(int i=0; i<N; i++){
             int age = sc.nextInt();
             String name = sc.next();
-            Member member = new Member(age, name, i);
-            memberList.add(member);
+            memberList[i] = new Member(age, name);
         }
 
-        solution(memberList);
+        solution(memberList, sb);
 
     }
 
-    private static void solution(List<Member> memberList){
-        for(int i=1; i<memberList.size(); i++){
-            int tmp = memberList.get(i).age;
-            int prevI = i - 1;
+    private static void solution(Member[] memberList, StringBuilder sb){
+        Arrays.sort(memberList);
 
-            while((prevI >= 0) && memberList.get(prevI).age > tmp ){
-                memberList.set(i, )
-//                Collections.swap(memberList, prevI+1, prevI);
-//                prevI--;
-            }
-
-
+        for(Member member : memberList){
+            sb.append(member.age).append(" ").append(member.name).append("\n");
         }
 
-        String print = "";
-        for(Member m : memberList){
-            print += m.age + " " + m.name + "\n";
-        }
+        System.out.print(sb);
 
-        System.out.print(print);
     }
 
 
