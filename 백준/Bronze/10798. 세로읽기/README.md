@@ -5,6 +5,13 @@
 ### 문제 풀이
 > 파이썬은 간단하게 문자열을 index로 접근할 수 있다. (char방식)
 
+``` py
+for i in range(max(len_array)) :
+    for j in range(5) :
+        if i < len(array[j]) :
+            answer += array[j][i]
+```
+
 j는 행, i는 열이다.
 
 열의 길이가 모두 다르므로 모두 탐색하기 위해서는 입력받은 값의 길이가 최대인 것을 사용한다. (`max(len_array)`)
