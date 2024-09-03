@@ -1,89 +1,90 @@
+import java.io.*;
 import java.util.*;
 
 public class Main {
-
-    public static boolean[] visited;
+    
+    public static StringBuilder sb = new StringBuilder();
+    public static boolean[] visited_dfs;
+    public static boolean[] visited_bfs;
+    public static int[][] arr;
+    public static Deque<Integer> stack = new ArrayDeque<>();
+    public static Deque<Integer> q = new ArrayDeque<>();
+    
     public static int N;
     public static int M;
-    public static int[][] arr;
-    public static StringBuilder sb;
-
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        N = sc.nextInt(); // 정점의 개수
-        M = sc.nextInt(); // 간선의 개수
-        int V = sc.nextInt(); // 탐색을 시작할 정점의 번호
+    public static int V;
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        V = Integer.parseInt(st.nextToken());
+        
+        // 인덱스가 아닌 숫자(N)으로 접근할 수 있도록 +1해서 초기화한다.
         arr = new int[N+1][N+1];
-
-        for(int i=0; i<M; i++){
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-            arr[x][y] = 1;
-            arr[y][x] = 1;
+        visited_dfs = new boolean[N+1];
+        visited_bfs = new boolean[N+1];
+        
+        // 간선 정보 입력
+        for(int i=0; i<M; i++) {
+            st = new StringTokenizer(br.readLine());
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+            arr[x][y] = arr[y][x] = 1;
         }
-
-        solution(V);
-
-    }
-
-    public static void solution(int start){
-        // 초기화
-        sb = new StringBuilder();
-        visited = new boolean[N+1];
-
-        // 탐색 시작
-        visited[start] = true;
-        sb.append(start).append(" ");
-
-        DFS(start); // DFS
-        sb.append("\n");
-
-        // 초기화
-        visited = new boolean[N+1];
-
-        // 탐색 시작
-        visited[start] = true;
-        sb.append(start).append(" ");
-
-        BFS(start); //BFS
+        
+        dfs(V);
+        bfs(V);
         System.out.println(sb);
     }
-
-    public static void DFS(int start){
-
-        for(int i=1; i<=N; i++){
-            if(arr[start][i] == 1) { // 연결되어 있고
-                if(!visited[i]){ // 방문하지 않은 경우
-                    visited[i] = true; // 방문처리
+    
+    // 재귀
+    public static void dfs(int x) {
+        visited_dfs[x] = true; // 이어진 정점일 경우 방문 기록을 남긴다.
+        sb.append(x).append(" ");
+        for (int i=1; i<= N; i++) {
+            if(arr[x][i] == 1 && !visited_dfs[i]) { // 이어진 정점과, 방문하지 않은 정점만을 비교한다.
+                dfs(i);
+            }
+        }
+    }
+    
+    // 스택 + 재귀
+    public static void dfs_st(int x) {
+        visited_dfs[x] = true;
+        sb.append("\n").append(x).append(" ");
+        stack.push(x);
+        while (!stack.isEmpty()) {
+            int cur = stack.pop();
+            for (int i=1; i<=N; i++) {
+                if(arr[cur][i] == 1 && !visited_dfs[i]) {
+                    stack.push(i);
                     sb.append(i).append(" ");
-                    DFS(i);
-                }
-            }
-        }
-
-    }
-
-    public static void BFS(int start){
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(start); // 큐에 넣어주기
-        while(!queue.isEmpty()){ // 큐가 빌때까지 반복하기
-            int curNode = queue.poll();
-
-            // 연결정보 탐색
-            for(int i=1; i<=N; i++){
-                if(arr[curNode][i] == 1) {// 연결되어 있고
-                    if(!visited[i]){ // 방문하지 않은 경우
-                        queue.add(i); // 큐에 넣기
-                        visited[i] = true;
-                        sb.append(i).append(" ");
-                    }
+                    dfs_st(i);
                 }
             }
 
         }
-
-
     }
-
-
+    
+    
+    // queue
+    public static void bfs(int x) {
+        visited_bfs[x] = true;
+        sb.append("\n").append(x).append(" ");
+        q.offer(x);
+        while (!q.isEmpty()) {
+            int cur = q.poll();
+            for (int i=1; i<=N; i++) {
+                if(arr[cur][i] == 1 && !visited_bfs[i]) {
+                    q.offer(i);
+                    visited_bfs[i] = true;
+                    sb.append(i).append(" ");
+                }
+            }
+        }
+    }
+    
 }
