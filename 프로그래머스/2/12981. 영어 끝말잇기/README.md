@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12981?language=java) 
 
+## 문제 풀이
+아쉬운 점
+- Set을 사용해서 풀면 좋을 것 같다..
+
+
 ### 성능 요약
 
 메모리: 86.1 MB, 시간: 14.70 ms
