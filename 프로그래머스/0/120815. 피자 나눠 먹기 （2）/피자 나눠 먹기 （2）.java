@@ -1,12 +1,10 @@
 class Solution {
     public int solution(int n) {
-        int answer = 0;
-        for (int i=1; i<=20; i++) {
-            if ((n * i) % 6 == 0) {
-                answer = n*i / 6;
-                break;
-            }
+        int pizza = 1;
+        while (n*pizza % 6 != 0) {
+            pizza++;
         }
-       return answer;
+        
+        return n*pizza / 6;
     }
 }
