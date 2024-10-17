@@ -2,7 +2,6 @@ import java.util.*;
 class Solution {
     public int solution(String skill, String[] skill_trees) {
         int answer = 0;
-        List<String> list = new ArrayList<>();
         char[] skill_array = skill.toCharArray();
         
         for(String s : skill_trees) {
