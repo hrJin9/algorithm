@@ -1,25 +1,30 @@
 import java.util.*;
 class Solution {
     public int[] solution(int n, String[] words) {
+        String last = "";
         int[] answer = new int[2];
-        String last_words = "";
-        ArrayList<String> visited = new ArrayList<>();
-        for (int i=0; i<words.length; i++) {
-            String cur = words[i];
-            // 마지막 단어로 시작하는지 여부
-            if (visited.contains(cur) || !cur.startsWith(last_words)) {
-                int person = ((i+1) % n == 0) ? n : (i+1) % n;
-                answer[0] = person;
+        Set<String> visited = new HashSet<>();
+        visited.add(words[0]);
+        
+        for(int i=1; i<words.length; i++) {
+            // 끝말잇기 여부 검사
+            last = words[i-1].substring(words[i-1].length()-1);
+            if (!words[i].startsWith(last)) {
+                answer[0] = (i%n) + 1;
                 answer[1] = (i/n) + 1;
                 break;
-            } else {
-                visited.add(words[i]);
-                last_words = cur.substring(cur.length()-1);
             }
+            
+            // 중복 여부 검사
+            if(visited.contains(words[i])) {
+                answer[0] = (i%n) + 1;
+                answer[1] = (i/n) + 1;
+                break;
+            }
+            
+            visited.add(words[i]);
         }
-
-        System.out.println("[" + answer[0] + "," + answer[1] + "]");
-
+        
         return answer;
     }
 }
