@@ -1,59 +1,60 @@
-import java.io.*;
 import java.util.*;
+import java.io.*;
 
 class Main {
-    static int N;
-    static String[] arr;
-    static String[] tempArr;
+    
+    static int k;
+    static char[] arr;
+    static char[] cur;
     static boolean[] visited;
-    static int time;
-
+    static StringBuilder sb;
+    static int count;
+    static String answer;
+    
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         String line;
-        while((line = br.readLine()) != null) {
+        while((line=br.readLine()) != null) {
+            // 초기화 작업
             StringTokenizer st = new StringTokenizer(line);
-            String temp = st.nextToken();
-            arr = temp.split("");
-            time = 0;
-            tempArr = new String[arr.length];
+            answer = "No permutation";
+            count = 0;
+            sb = new StringBuilder();
+            String str = st.nextToken();
+            k = Integer.parseInt(st.nextToken());
+            arr = str.toCharArray();
+            cur = new char[arr.length];
             visited = new boolean[arr.length];
-            N = Integer.parseInt(st.nextToken());
-
-            solution(0);
-
-            String answer = temp + " " + N + " = ";
-            if(time < N) {
-                answer += "No permutation";
-            } else {
-                for(int i = 0; i < arr.length; i++) {
-                    answer += arr[i];
-                }
-            }
-
-            System.out.println(answer);
+            
+            dfs(0);
+            
+            sb.append(str).append(" ").append(k).append(" = ").append(answer);
+            System.out.println(sb);
         }
+        
     }
-
-    public static void solution(int cnt) {
-        if(cnt == arr.length) {
-            time++;
-            if(time == N) {
-                for(int i = 0; i < arr.length; i++) {
-                    arr[i] = tempArr[i];
-                }
+    
+    static void dfs(int depth) {
+        if(depth == arr.length) {
+            count++; // 만들어진 순열의 번호
+            if(count == k) {
+                answer = new String(cur);
             }
             return;
         }
-
-        for (int i = 0; i < arr.length; i++) {
+        
+        for(int i=0; i<arr.length; i++) {
             if(visited[i])
                 continue;
-
-            tempArr[cnt] = arr[i];
+            
             visited[i] = true;
-            solution(cnt + 1);
+            cur[depth] = arr[i];
+            
+            dfs(depth + 1);
             visited[i] = false;
         }
+        
+        
     }
 }
