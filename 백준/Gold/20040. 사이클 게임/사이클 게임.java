@@ -20,23 +20,29 @@ public class Main {
         for(int i=1; i<=m; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
-            Union(a, b, i);
+            if(!Union(a, b, i)) {
+                break;
+            }
         }
 
         System.out.println(count);
 
     }
 
-    public static void Union(int a, int b, int i) {
+    public static boolean Union(int a, int b, int i) {
         int fa = Find(a); // a노드의 루트
         int fb = Find(b); // b노드의 루트
 
         if(fa != fb) {
             unf[fa] = fb; // a의 루트의 루트는 b의 루트가 된다.
         } else {
-            if(count == 0)
+            if(count == 0) {
                 count = i;
+                return false;
+            }
         }
+        
+        return true;
     }
 
     public static int Find(int a) {
